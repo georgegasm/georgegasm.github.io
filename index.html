@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,187 +9,231 @@
     <meta name="author" content="">
     <title>Georgegasm</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-	<link href="social-buttons.css" rel="stylesheet">
-	<style type="text/css">
-		body { background: #67BCDB }
-		ul.nav a:hover { color: #67BCDB !important; }
-		.carousel{display: inline-block;}
-	</style>
-	<script type='text/javascript'>
-            $(window).load(function() {
-                $(document).ready(function() {
-					function activaTab(tab){
-						$('.nav-tabs a[href="#' + tab + '"]').tab('show');
-					};
-				});
-			});
-	</script>
-  </head>
-  <body>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="social-buttons.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background: #67BCDB
+        }
+        
+        ul.nav a:hover {
+            color: #67BCDB !important;
+        }
+        
+        .carousel {
+            display: inline-block;
+        }
+    </style>
+    <script type='text/javascript'>
+        $(window).load(function() {
+            $(document).ready(function() {
+                function activaTab(tab) {
+                    $('.nav-tabs a[href="#' + tab + '"]').tab('show');
+                };
+            });
+        });
+    </script>
+</head>
+
+<body>
     <div class="container">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand">Georgegasm</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#Works" data-toggle="tab"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Works</a></li>
-			  <li><a href="#Blog" data-toggle="tab"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</a></li>
-              <li><a href="#About" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</a></li>
-              <li><a href="#Resume" data-toggle="tab"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Résumé</a></li>
-			  <li><a href="#Contact" data-toggle="tab"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-	  <div class="tab-content" id="tabs">
-		  <div class="tab-pane fade in active jumbotron" id="Works">
-			<h2><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Works</h2>
-			<p>Welcome! Scroll down and take a look at some of my web applications available online.</p>
-					  <div style="overflow:scroll; height: 300px">
-					  <center>
-								<div style="float: left;"><img src="gpa.png" style="width: 200px; height: 200px" onclick="window.open('http://georgegasm.github.io/GPA/')"></div>
-								<div><h4 style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;DLSU GPA Calculator</h4>
-								<h5 style="color:black">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">Georgegasm</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#Works" data-toggle="tab"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Works</a></li>
+                        <li><a href="#Blog" data-toggle="tab"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</a></li>
+                        <li><a href="#About" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</a></li>
+                        <li><a href="#Resume" data-toggle="tab"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Résumé</a></li>
+                        <li><a href="#Contact" data-toggle="tab"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="tab-content" id="tabs">
+            <div class="tab-pane fade in active jumbotron" id="Works">
+                <h2><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Works</h2>
+                <p>Welcome! Scroll down and take a look at some of my web applications available online.</p>
+                <div style="overflow:scroll; height: 300px">
+                    <center>
+                        <div style="float: left;"><img src="gpa.png" style="width: 200px; height: 200px" onclick="window.open('http://georgegasm.github.io/GPA/')"></div>
+                        <div>
+                            <h4 style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;DLSU GPA Calculator</h4>
+                            <h5 style="color:black">
 									&nbsp;&nbsp;&nbsp;&nbsp;A simple GPA calculator that follows the DLSU grading <br/>
 									&nbsp;&nbsp;&nbsp;&nbsp;system. This GPA calculator can asses whether a student <br/> 
 									&nbsp;&nbsp;&nbsp;&nbsp;have passed all his subjects, is qualified as a dean's lister<br/> 
 									&nbsp;&nbsp;&nbsp;&nbsp;(if all requirements are met), or has a failure. Whatever <br/> 
-									&nbsp;&nbsp;&nbsp;&nbsp;the result may be, a pug is there to cheer you up!<br/></h5>
-									&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-lg btn-primary" onclick="window.open('http://georgegasm.github.io/GPA/')">Try it!</button></div>
-									<br/>
-									<br/>
-									<br/>
-								<div style="float: left;"><img src="hita.png" style="width: 200px; height: 200px"></div>
-								<div><h4 style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;Customized software/web app</h4>
-								<h5 style="color:black">
+									&nbsp;&nbsp;&nbsp;&nbsp;the result may be, a pug is there to cheer you up!<br/></h5> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="btn btn-lg btn-primary" onclick="window.open('http://georgegasm.github.io/GPA/')">Try it!</button>
+                        </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div style="float: left;"><img src="hita.png" style="width: 200px; height: 200px"></div>
+                        <div>
+                            <h4 style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;Google Spreadsheet as online DB</h4>
+                            <h5 style="color:black">
+									&nbsp;&nbsp;&nbsp;&nbsp;By combining existing online technologies such as<br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;HTML and form encryptions, JS obfuscation, and SheetRock,<br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;I am experimenting a way to make Google Spreadsheet as<br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;an online database attached to a static page in Github.<br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;This gives an avenue for starting developers to deploy their<br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;dream web pages on the internet with 0 cost!<br/> 
+									&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="btn btn-lg btn-primary">Under construction</button>
+                        </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div style="float: left;"><img src="hita.png" style="width: 200px; height: 200px"></div>
+                        <div>
+                            <h4 style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;Customized software/web app</h4>
+                            <h5 style="color:black">
 									&nbsp;&nbsp;&nbsp;&nbsp;We offer business analysis to come up with a tailored-fit<br/>
 									&nbsp;&nbsp;&nbsp;&nbsp;software/web app for small - medium sized<br/>
 									&nbsp;&nbsp;&nbsp;&nbsp;companies/organizations. The technology that will be<br/>
 									&nbsp;&nbsp;&nbsp;&nbsp;used depends on clients' conditions. If you already<br/>
 									&nbsp;&nbsp;&nbsp;&nbsp;have an idea or dream app, we can brainstorm it out.<br/>
 									<br/>
-									&nbsp;&nbsp;&nbsp;&nbsp;This service is offered by: CoDea "Turning ideas into codes"</h5>
-									&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Learn More</button></div>
-						</center>
-					  </div>
-		  </div>
-		  <div class="tab-pane fade jumbotron" id="Blog">
-			<h2><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</h2>
-			<p>I have a blog at WordPress called 'The G-Spot'. It's a deep-thought-diving blog about wonders of life. Although it may not attract as many visitors, it's always a good exercise for the brain to think about things we don't usually ponder on a daily basis.</p>
-			<center>
-				 <img src="blog.png" class="img-rounded" style="border: #000000 6px outset; width: 500px; height: 250px;"><br/><br/>
-			<button class="btn btn-lg btn-primary" onclick="window.open('http://georgegasm.wordpress.com')">Visit now!</button></center>
-		  </div>
-		  <div class="tab-pane fade jumbotron" id="About">
-			<h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</h2>
-			<p><div><h4>&nbsp;&nbsp;&nbsp;&nbsp;My name is <b>George Vasquez II</b>, I'm 21 years old and currently living in Manila, Philippines.<br/><br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;This service is offered by: CoDea "Turning ideas into codes"</h5> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Learn More</button>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div class="tab-pane fade jumbotron" id="Blog">
+                <h2><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</h2>
+                <p>I have a blog at WordPress called 'The G-Spot'. It's a deep-thought-diving blog about wonders of life. Although it may not attract as many visitors, it's always a good exercise for the brain to think about things we don't usually ponder on a daily basis.</p>
+                <center>
+                    <img src="blog.png" class="img-rounded" style="border: #000000 6px outset; width: 500px; height: 250px;">
+                    <br/>
+                    <br/>
+                    <button class="btn btn-lg btn-primary" onclick="window.open('http://georgegasm.wordpress.com')">Visit now!</button>
+                </center>
+            </div>
+            <div class="tab-pane fade jumbotron" id="About">
+                <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</h2>
+                <p>
+                    <div>
+                        <h4>&nbsp;&nbsp;&nbsp;&nbsp;My name is <b>George Vasquez II</b>, I'm 21 years old and currently living in Manila, Philippines.<br/><br/>
 			&nbsp;&nbsp;&nbsp;&nbsp;I'm a graduating student taking up <b>Bachelor of Science in Information Systems</b> at <b>De La Salle University - Manila.</b><br/>
 			&nbsp;&nbsp;&nbsp;&nbsp;I'm the head programmer of our thesis team and the head business analyst of my startup team.<br/>
 			&nbsp;&nbsp;&nbsp;&nbsp;Be it developer or analyst, I can take on both.<br/><br/>
 			&nbsp;&nbsp;&nbsp;&nbsp;I have experienced building applications and software for companies and organizations of different domains,<br/>
 			&nbsp;&nbsp;&nbsp;&nbsp;both on my own and in collaboration with a team.<br/><br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;If you're interested in getting in touch, you can click on the <b>Contact</b> tab.</h4></div></p>
-		  </div>
-		  <div class="tab-pane fade jumbotron" id="Resume">
-			<h2><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Resume</h2>
-			<p><div class="container" >
-			<div style="float: left; display:block;overflow: hidden;">
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Summary</h3>
-				<ul>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;George Vasquez II</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Quezon City, Philippines</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;October 4, 1993 (age 21)</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">george.vasquez.ii@gmail.com</a></li>
-				</ul>
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Work</h3>
-				<ul>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;2013-ongoing: Co-founder at <a data-toggle="modal" data-target="#myModal">CoDea "Turning Ideas into Codes"</a></li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;2014-ongoing: Freelance web and software developer</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;2015: Business Analyst and Quality Assurance Intern at Towers Watson</li>
-				</ul>
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Education</h3>
-				<ul>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;2011-2015: BS Information Systems at De La Salle University - Manila</li>
-				</ul>
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Skills</h3>
-				<ul>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Software Quality Assurance</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Manual and Automated Testing</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Systems Analysis and Design</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Front-end and back-end development</li>
-				</ul>
-				</div>
-			<div style="display:block;overflow: hidden;">
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Software</h3>
-				<ul>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;NetBeans IDE 8.0</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Eclipse IDE Luna</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Android Studio 1.0</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;SharePoint</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Selenium IDE</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Microsoft Office (2010 and 365)</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Windows 8.1</li>
-				</ul>
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Languages and Frameworks</h3>
-				<ul>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Javascript and jQuery</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;HTML5</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;CSS and Twitter BootStrap</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;Java and Android OS</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;PHP and AJAX</li>
-					<li>&nbsp;&nbsp;&nbsp;&nbsp;ASP.NET</li>
-				</ul>
-			</div>
-			</div></p><p>Full version of my resume is available upon request. Click on <b>Contacts</b> tab to find out more.</p>
-		  </div>
-		  <div class="tab-pane fade jumbotron" id="Contact">
-			<h2><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact</h2>
-			<p>You may check my social media accounts to know more about me. If you have any business concerns, you can send me an email at:<br/>
-			<ul>
-			<li>&nbsp;&nbsp;&nbsp;&nbsp;george.vasquez.ii@gmail.com<br/></li>
-			<li>&nbsp;&nbsp;&nbsp;&nbsp;george_vasquez_ii@yahoo.com<br/></li>
-			<li>&nbsp;&nbsp;&nbsp;&nbsp;george_vasquezii@dlsu.edu.ph</li></p>
-			</ul>
-			<button class="btn btn-facebook" onClick="window.open('https://www.facebook.com/georgevasquezii')"><i class="fa fa-facebook"></i> Facebook</button>
-			<button class="btn btn-twitter" onClick="window.open('https://twitter.com/georgeasmic')"><i class="fa fa-twitter"></i> Twitter</button>
-			<button class="btn btn-instagram" onClick="window.open('https://instagram.com/georgeasmic')"><i class="fa fa-instagram"></i> Instagram</button>
-			<button class="btn btn-linkedin" onClick="window.open('https://www.linkedin.com/profile/view?id=337459332')">><i class="fa fa-linkedin"></i> LinkedIn</button>
-		  </div>
-	  </div>
-	Developed by: George Vasquez II . <a href="#">george.vasquez.ii@gmail.com</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;If you're interested in getting in touch, you can click on the <b>Contact</b> tab.</h4></div>
+                </p>
+            </div>
+            <div class="tab-pane fade jumbotron" id="Resume">
+                <h2><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Resume</h2>
+                <p>
+                    <div class="container">
+                        <div style="float: left; display:block;overflow: hidden;">
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Summary</h3>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;George Vasquez II</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Quezon City, Philippines</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;October 4, 1993 (age 21)</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">george.vasquez.ii@gmail.com</a></li>
+                            </ul>
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Work</h3>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;2013-ongoing: Co-founder at <a data-toggle="modal" data-target="#myModal">CoDea "Turning Ideas into Codes"</a></li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;2014-ongoing: Freelance web and software developer</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;2015: Business Analyst and Quality Assurance Intern at Towers Watson</li>
+                            </ul>
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Education</h3>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;2011-2015: BS Information Systems at De La Salle University - Manila</li>
+                            </ul>
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Skills</h3>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Software Quality Assurance</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Manual and Automated Testing</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Systems Analysis and Design</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Front-end and back-end development</li>
+                            </ul>
+                        </div>
+                        <div style="display:block;overflow: hidden;">
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Software</h3>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;NetBeans IDE 8.0</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Eclipse IDE Luna</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Android Studio 1.0</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;SharePoint</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Selenium IDE</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Microsoft Office (2010 and 365)</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Windows 8.1</li>
+                            </ul>
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Languages and Frameworks</h3>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Javascript and jQuery</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;HTML5</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;CSS and Twitter BootStrap</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;Java and Android OS</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;PHP and AJAX</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;ASP.NET</li>
+                            </ul>
+                        </div>
+                    </div>
+                </p>
+                <p>Full version of my resume is available upon request. Click on <b>Contacts</b> tab to find out more.</p>
+            </div>
+            <div class="tab-pane fade jumbotron" id="Contact">
+                <h2><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact</h2>
+                <p>You may check my social media accounts to know more about me. If you have any business concerns, you can send me an email at:
+                    <br/>
+                    <ul>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;george.vasquez.ii@gmail.com
+                            <br/>
+                        </li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;george_vasquez_ii@yahoo.com
+                            <br/>
+                        </li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;george_vasquezii@dlsu.edu.ph</li>
+                </p>
+                </ul>
+                <button class="btn btn-facebook" onClick="window.open('https://www.facebook.com/georgevasquezii')"><i class="fa fa-facebook"></i> Facebook</button>
+                <button class="btn btn-twitter" onClick="window.open('https://twitter.com/georgeasmic')"><i class="fa fa-twitter"></i> Twitter</button>
+                <button class="btn btn-instagram" onClick="window.open('https://instagram.com/georgeasmic')"><i class="fa fa-instagram"></i> Instagram</button>
+                <button class="btn btn-linkedin" onClick="window.open('https://www.linkedin.com/profile/view?id=337459332')">><i class="fa fa-linkedin"></i> LinkedIn</button>
+            </div>
+        </div>
+        Developed by: George Vasquez II . <a href="#">george.vasquez.ii@gmail.com</a>
     </div>
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title" id="myModalLabel">CoDea "Turning ideas into codes"</h4>
-			  </div>
-			  <div class="modal-body">
-				<img src="hitalogo.png" style="float: left;"><h3><b>What is CoDea?</b></h3>
-				CoDea is a startup business that aims to provide software solutions to small-medium sized companies/organizations of any domain. We provide a seamless streamlining of business processes through technologies to make work easier, fun, and productive.<br/>
-				
-				We are also making our way to the field of Software as a Service (SaaS).
-				<br/><br/>
-				You may reach us at <a href="#">i.coding.ideas@gmail.com</a>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-	</div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">CoDea "Turning ideas into codes"</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="hitalogo.png" style="float: left;">
+                    <h3><b>What is CoDea?</b></h3> CoDea is a startup business that aims to provide software solutions to small-medium sized companies/organizations of any domain. We provide a seamless streamlining of business processes through technologies to make work easier, fun, and productive.
+                    <br/> We are also making our way to the field of Software as a Service (SaaS).
+                    <br/>
+                    <br/> You may reach us at <a href="#">i.coding.ideas@gmail.com</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="bootstrap/js/jquery-latest.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
 </html>
